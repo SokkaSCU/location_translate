@@ -1,2 +1,6 @@
 # location_translate
-translate the location between WGS84 and  
+国内几乎所有的地理信息采集数据因应保密需要采取了在WGS84地理坐标系基础上处理过的GCJ02地理坐标系（俗称火星坐标系），这就造成了在使用相关数据时与其他采用WGS84坐标系的数据产生地理位置的偏差，因此需要将两套坐标系进行相互转换。
+本文档所附python脚本定义了一个GPSlocation的类，通过引用其中的转换函数，可将两套坐标系的经纬度进行相互转换。
+具体使用方法相信有一定python基础的朋友都可以很方便的使用。
+
+by meng xiangrui
