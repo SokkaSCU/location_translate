@@ -1,6 +1,7 @@
 class GPSlocation:
     """used to translate the location system"""
     _prop_ = 'GPSlocation'
+    import math
     pi = 3.1415926535897932384626
     a = 6378245.0
     ee = 0.00669342162296594323
